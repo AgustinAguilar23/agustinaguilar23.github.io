@@ -1,0 +1,409 @@
+﻿/*Fuentes a utilizar*/
+
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url("../Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Exo2-Medium";
+    src: url("../Exo2-Medium.ttf");
+}
+
+/*Menú Principal*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#aguila_logo {
+    background-color: #000;
+    opacity: 0.7;
+}
+
+#menu1 {
+    margin: auto;
+    width: 759px;
+    font-family: Exo2-Medium;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 167.5px;
+}
+
+.nav li:hover ul {
+    display: grid;
+    z-index: 1;
+}
+
+#inicio {
+    border-radius: 0px 0px 0px 10px;
+}
+
+#contacto {
+    border-radius: 0px 0px 10px 0px;
+}
+
+#icono {
+    margin-left: 10px;
+}
+
+/*Elementos del cuerpo*/
+
+body {
+    background-image: url(../tomb_raider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+   text-decoration: none;
+   background-color: #000;
+   opacity: 0.7;
+   text-align: center;
+   font-family: Quicksand-Medium;
+   font-size: 25px;
+   color: #fff;
+   letter-spacing: 5px;
+}
+
+footer {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: 162px;
+}
+
+/*Elementos de form contacto*/
+
+#title {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 100px 100px 100px 100px;
+    letter-spacing: 5px;
+    margin: 100px 300px 50px 300px;
+    text-align: center;
+}
+
+#contenedores {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+}
+
+#camp1 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 20px 2px 20px;
+    margin-top: 20px;
+}
+
+#camp2 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 10px 21px 10px 21px;
+    margin-left: 24px;
+}
+
+#camp3 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 20px 2px 20px;
+    margin-left: 195px;
+}
+
+#camp4 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 10px 21px 10px 21px;
+}
+
+#enviar {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px 20px 5px 20px;
+}
+
+#enviar:hover {
+    font-family: Quicksand-Medium;
+    background-color: #fff;
+    opacity: 0.7;
+    color: black;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px 20px 5px 20px;
+}
+
+/*Elementos de form registrarse*/
+
+#title1 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 100px 100px 100px 100px;
+    letter-spacing: 5px;
+    margin: 100px 300px 50px 300px;
+    text-align: center;
+}
+
+#camp5 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 107px;
+}
+
+#camp6 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 107px;
+}
+
+#camp7 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 23px;
+}
+
+#camp8 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 28px;
+}
+
+#camp9 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 80px;
+}
+
+#camp10 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 10px 2px 10px;
+}
+
+#contenedor3 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+#registrarme {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 3px 124px 3px 124px;
+    margin-top: 10px;
+}
+
+#registrarme:hover {
+    font-family: Quicksand-Medium;
+    background-color: #fff;
+    opacity: 0.7;
+    color: black;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 3px 124px 3px 124px;
+    margin-top: 10px;
+}
+
+/*Elementos de form ingresar*/
+
+#title2 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 100px 100px 100px 100px;
+    letter-spacing: 5px;
+    margin: 100px 300px 50px 300px;
+    text-align: center;
+}
+
+#camp11 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 25px 2px 25px;
+}
+
+#camp12 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 25px 2px 25px;
+    margin-left: 214px;
+}
+
+#contenedor4 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+#ingresar {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 3px 216px 3px 216px;
+    margin-top: 10px;
+}
+
+#ingresar:hover {
+    font-family: Quicksand-Medium;
+    background-color: #fff;
+    opacity: 0.7;
+    color: black;
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    padding: 3px 216px 3px 216px;
+    margin-top: 10px;
+}
+
+/*Media queries*/
+
+/*resoluciones aproximadas de un celular*/
+
+@media screen and (min-width: 200px) and (max-width: 500px) and (min-height: 200px) and (max-height: 500px){
+
+#menu1 {
+    margin: 0px;
+    width: auto;
+}
+
+.nav li a {
+    padding: 10px 0px 10px 0px;
+    display: block;
+}
+
+.nav li {
+    float: none;
+}
+
+#inicio {
+    border-radius: 0px;
+}
+
+#contacto {
+    border-radius: 0px;
+}
+
+#title {
+    margin: 20px 10px 50px 10px;
+}
+
+#title1 {
+    margin: 20px 10px 50px 10px;
+}
+
+#title2 {
+    margin: 20px 10px 50px 10px;
+}
+
+}

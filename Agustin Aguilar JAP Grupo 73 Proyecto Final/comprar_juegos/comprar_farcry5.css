@@ -1,0 +1,201 @@
+﻿/*Fuentes a utilizar*/
+
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url("../Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Exo2-Medium";
+    src: url("../Exo2-Medium.ttf");
+}
+
+/*Menú Principal*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#aguila_logo {
+    background-color: #000;
+    opacity: 0.7;
+}
+
+#menu1 {
+    margin: auto;
+    width: 759px;
+    font-family: Exo2-Medium;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 167.5px;
+}
+
+.nav li:hover ul {
+    display: grid;
+    z-index: 1;
+}
+
+#inicio {
+    border-radius: 0px 0px 0px 10px;
+}
+
+#contacto {
+    border-radius: 0px 0px 10px 0px;
+}
+
+#icono {
+    margin-left: 10px;
+}
+
+/*Elementos del cuerpo*/
+
+body {
+    background-image: url(../backgrounds_juegos/background_farcry5_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-decoration: none;
+    background-color: #000;
+    opacity: 0.7;
+    text-align: center;
+    font-family: Quicksand-Medium;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+footer {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: 100px;
+}
+
+/*Contenido de comprar juego*/
+
+#title0 {
+    font-family: Quicksand-Medium;
+    background-color: springgreen;
+    opacity: 0.7;
+    color: black;
+    border-radius: 100px 100px 100px 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 100px 300px 0px 300px;
+}
+
+#title1 {
+    font-family: Quicksand-Medium;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 0px 5px 0px;
+}
+
+#contenedor {
+    text-align:center;
+    margin-top: 4px;
+}
+
+#img1 {
+    background-color: black;
+    opacity: 0.7;
+    padding: 50px 70.5px 50px 70.5px;
+}
+
+#img2 {
+}
+
+#parrafo1 {
+    font-family: Quicksand-Medium;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
+
+/*Calificacion*/
+
+#estrellitas {
+    border: #fff solid;
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    opacity: 0.7;
+    margin: 10px 550px 0px 550px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover ~ label {
+    color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+
+#calificar {
+    font-size: 18px;
+    font-family: Quicksand-Medium;
+    color: white;
+}
+
+#promedio {
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    background-color: #434343;
+    border-radius: 100px;
+    padding-left: 10px;
+    margin: 0px 375px 5px 375px;
+
+}
